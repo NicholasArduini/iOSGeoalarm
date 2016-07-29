@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DC423E81D4A9FFA00D47F77 /* AlarmLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC423DE1D4A9FFA00D47F77 /* AlarmLocation.swift */; };
+		5DC423E91D4A9FFA00D47F77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC423DF1D4A9FFA00D47F77 /* AppDelegate.swift */; };
+		5DC423EA1D4A9FFA00D47F77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DC423E01D4A9FFA00D47F77 /* Assets.xcassets */; };
+		5DC423EC1D4A9FFA00D47F77 /* DefaultsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC423E21D4A9FFA00D47F77 /* DefaultsStorage.swift */; };
+		5DC423ED1D4A9FFA00D47F77 /* Hillside.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5DC423E31D4A9FFA00D47F77 /* Hillside.wav */; };
+		5DC423EE1D4A9FFA00D47F77 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5DC423E41D4A9FFA00D47F77 /* Info.plist */; };
+		5DC423EF1D4A9FFA00D47F77 /* MapSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC423E51D4A9FFA00D47F77 /* MapSearchTable.swift */; };
+		5DC423F01D4A9FFA00D47F77 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC423E61D4A9FFA00D47F77 /* MapViewController.swift */; };
+		5DC423F41D4AA1C500D47F77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC423F21D4AA1C500D47F77 /* LaunchScreen.storyboard */; };
+		5DC423F71D4AA1CA00D47F77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC423F51D4AA1CA00D47F77 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D904F6A1CE1653F00F887B1 /* Geolarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geolarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DC423DE1D4A9FFA00D47F77 /* AlarmLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlarmLocation.swift; path = Geolarm/AlarmLocation.swift; sourceTree = SOURCE_ROOT; };
+		5DC423DF1D4A9FFA00D47F77 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Geolarm/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		5DC423E01D4A9FFA00D47F77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Geolarm/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		5DC423E21D4A9FFA00D47F77 /* DefaultsStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefaultsStorage.swift; path = Geolarm/DefaultsStorage.swift; sourceTree = SOURCE_ROOT; };
+		5DC423E31D4A9FFA00D47F77 /* Hillside.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Hillside.wav; path = Geolarm/Hillside.wav; sourceTree = SOURCE_ROOT; };
+		5DC423E41D4A9FFA00D47F77 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Geolarm/Info.plist; sourceTree = SOURCE_ROOT; };
+		5DC423E51D4A9FFA00D47F77 /* MapSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapSearchTable.swift; path = Geolarm/MapSearchTable.swift; sourceTree = SOURCE_ROOT; };
+		5DC423E61D4A9FFA00D47F77 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = Geolarm/MapViewController.swift; sourceTree = SOURCE_ROOT; };
+		5DC423F31D4AA1C500D47F77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Geolarm/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		5DC423F61D4AA1CA00D47F77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Geolarm/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D904F671CE1653F00F887B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D904F611CE1653F00F887B1 = {
+			isa = PBXGroup;
+			children = (
+				5D904F6C1CE1653F00F887B1 /* Location Alarm */,
+				5D904F6B1CE1653F00F887B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D904F6B1CE1653F00F887B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D904F6A1CE1653F00F887B1 /* Geolarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D904F6C1CE1653F00F887B1 /* Location Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				5DC423DE1D4A9FFA00D47F77 /* AlarmLocation.swift */,
+				5DC423DF1D4A9FFA00D47F77 /* AppDelegate.swift */,
+				5DC423E51D4A9FFA00D47F77 /* MapSearchTable.swift */,
+				5DC423E61D4A9FFA00D47F77 /* MapViewController.swift */,
+				5DC423F21D4AA1C500D47F77 /* LaunchScreen.storyboard */,
+				5DC423F51D4AA1CA00D47F77 /* Main.storyboard */,
+				5DC423E01D4A9FFA00D47F77 /* Assets.xcassets */,
+				5DC423E21D4A9FFA00D47F77 /* DefaultsStorage.swift */,
+				5DC423E31D4A9FFA00D47F77 /* Hillside.wav */,
+				5DC423E41D4A9FFA00D47F77 /* Info.plist */,
+			);
+			path = "Location Alarm";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D904F691CE1653F00F887B1 /* Geolarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D904F7C1CE1653F00F887B1 /* Build configuration list for PBXNativeTarget "Geolarm" */;
+			buildPhases = (
+				5D904F661CE1653F00F887B1 /* Sources */,
+				5D904F671CE1653F00F887B1 /* Frameworks */,
+				5D904F681CE1653F00F887B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Geolarm;
+			productName = "Location Alarm";
+			productReference = 5D904F6A1CE1653F00F887B1 /* Geolarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D904F621CE1653F00F887B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Nicholas Arduini";
+				TargetAttributes = {
+					5D904F691CE1653F00F887B1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = UDGJ8L64CG;
+						DevelopmentTeamName = "Nicholas Arduini";
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 5D904F651CE1653F00F887B1 /* Build configuration list for PBXProject "Geolarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D904F611CE1653F00F887B1;
+			productRefGroup = 5D904F6B1CE1653F00F887B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D904F691CE1653F00F887B1 /* Geolarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D904F681CE1653F00F887B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC423F71D4AA1CA00D47F77 /* Main.storyboard in Resources */,
+				5DC423EE1D4A9FFA00D47F77 /* Info.plist in Resources */,
+				5DC423F41D4AA1C500D47F77 /* LaunchScreen.storyboard in Resources */,
+				5DC423EA1D4A9FFA00D47F77 /* Assets.xcassets in Resources */,
+				5DC423ED1D4A9FFA00D47F77 /* Hillside.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D904F661CE1653F00F887B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC423EF1D4A9FFA00D47F77 /* MapSearchTable.swift in Sources */,
+				5DC423F01D4A9FFA00D47F77 /* MapViewController.swift in Sources */,
+				5DC423E91D4A9FFA00D47F77 /* AppDelegate.swift in Sources */,
+				5DC423EC1D4A9FFA00D47F77 /* DefaultsStorage.swift in Sources */,
+				5DC423E81D4A9FFA00D47F77 /* AlarmLocation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5DC423F21D4AA1C500D47F77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DC423F31D4AA1C500D47F77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5DC423F51D4AA1CA00D47F77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DC423F61D4AA1CA00D47F77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D904F7A1CE1653F00F887B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nicholas Arduini (UDGJ8L64CG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Nicholas Arduini (UDGJ8L64CG)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D904F7B1CE1653F00F887B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nicholas Arduini (UDGJ8L64CG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Nicholas Arduini (UDGJ8L64CG)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D904F7D1CE1653F00F887B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/Geolarm/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LocationAlarm.LocationAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		5D904F7E1CE1653F00F887B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/Geolarm/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LocationAlarm.LocationAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D904F651CE1653F00F887B1 /* Build configuration list for PBXProject "Geolarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D904F7A1CE1653F00F887B1 /* Debug */,
+				5D904F7B1CE1653F00F887B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D904F7C1CE1653F00F887B1 /* Build configuration list for PBXNativeTarget "Geolarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D904F7D1CE1653F00F887B1 /* Debug */,
+				5D904F7E1CE1653F00F887B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D904F621CE1653F00F887B1 /* Project object */;
+}
