@@ -46,7 +46,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
     
     func applicationWillEnterForeground(application: UIApplication) {
         // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
-        
     }
     
     func applicationDidBecomeActive(application: UIApplication) {
@@ -61,7 +60,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
         do {
             if let bundle = NSBundle.mainBundle().pathForResource("Hillside", ofType: "wav") {
                 let alertSound = NSURL(fileURLWithPath: bundle)
-                try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+                try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback, withOptions: AVAudioSessionCategoryOptions.MixWithOthers)
                 try AVAudioSession.sharedInstance().setActive(true)
                 try audioPlayer = AVAudioPlayer(contentsOfURL: alertSound)
                 audioPlayer.prepareToPlay()
