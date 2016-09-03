@@ -7,7 +7,7 @@
 * Some API's used are the iOS Map View, Geo Fencing with CLLocationManager, UILocalNotification, AVAudioSession, Apple Maps search with Table View, UIGestureRecognizer and Map Overlays
 
 ##Download Link
-Available for a free download in the iOS App store: https://itunes.apple.com/us/app/geolarm/id1138895702?ls=1&mt=8
+Available for a free download in the iOS App store: https://itunes.apple.com/us/app/geolarm/id1138895702?mt=8
 
 ![alt tag](https://cloud.githubusercontent.com/assets/14320184/17253441/d04fb0b4-557e-11e6-9fce-594d609700cc.png)
 ![alt tag](https://cloud.githubusercontent.com/assets/14320184/17253442/d05d8ce8-557e-11e6-92ee-78047fc1c8fc.png)
