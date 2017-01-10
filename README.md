@@ -4,7 +4,7 @@
 * Once a destination is selected the app is constantly updating the distance to reach that destination
 * An overview of the route is shown when an alarm is set so that you have an idea of where you are in relation to your destination
 * Alarm notifications and sounds are triggered whether the app is in the foreground or not. Even if the phone is asleep, such that Geolarm is still running in the background of the device
-* Some API's used are the iOS Map View, Geo Fencing with CLLocationManager, UILocalNotification, AVAudioSession, Apple Maps search with Table View, UIGestureRecognizer and Map Overlays
+* API's used include the iOS Map View, Geo Fencing with CLLocationManager, UILocalNotification, AVAudioSession, Apple Maps search with Table View, UIGestureRecognizer and Map Overlays
 
 ##Download Link
 Available for a free download in the iOS App store: https://itunes.apple.com/us/app/geolarm/id1138895702?mt=8
